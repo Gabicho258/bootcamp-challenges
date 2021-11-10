@@ -64,5 +64,10 @@
 
 **32.-** [for*="obb"]
 
+![image](https://user-images.githubusercontent.com/85516522/141173379-934fc1b1-b60c-4537-9c57-46e8f4d617ba.png)
+
 ![image](https://user-images.githubusercontent.com/85516522/141017836-d6a4bd34-3e7e-48f8-95e4-322e237b50a6.png)
 
+#### Existen selectores de tipo (p, h1, etc), selectores de clase (.class), de id (#id), universal (*), de atributos ([attribute]). Además también están los que implican decendencia como: (A + B), hermanos (A ~ B), hijo decendiente (>) y los pseudoelementos (:last-child, :first-child, etc).
+
+#### La especificidad se refiere a como los navegadores interpretan que valores de un elemento son más importantes y por ende serán aplicados. Se calcula en una escala del 0 al 2, donde 0 son los selectores de tipo y pseudo-elementos, 1 los selectores de clase, selectores de atributos y pseudoclases y 2 son los selectores por ID.

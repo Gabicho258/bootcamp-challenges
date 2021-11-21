@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+
+.turnRound {
+    animation: 3s rotate linear infinite;
+}
+

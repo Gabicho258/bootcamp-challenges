@@ -1,0 +1,143 @@
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: white;
+  padding: 30px 10px;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+.list-nav {
+  list-style: none;
+  display: flex;
+}
+.item-nav {
+  color: rgb(83, 83, 83);
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 20px;
+}
+.search-button {
+  width: 20px;
+  height: 20px;
+}
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: rgb(243, 243, 243);
+}
+.section1-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 500px; */
+  /* background-color: brown; */
+}
+.section1-card {
+  background-color: white;
+  border: solid rgb(228, 228, 228) 1px;
+  width: 150px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+.section1-img {
+  width: 400px;
+  height: 200px;
+}
+.card-title {
+  font-size: 15px;
+  color: rgb(83, 83, 83);
+  font-weight: lighter;
+  padding: 0 10px 20px;
+  border-bottom: solid #000 1px;
+}
+.card-subtitle {
+  font-weight: bold;
+}
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  justify-content: space-around;
+}
+.section2-div1 {
+  background-color: rgb(243, 243, 243);
+  flex-basis: 66.67%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  padding: 40px;
+}
+.section2-div2 {
+  flex-basis: 33.33%;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.section2-div1-img {
+  max-width: 500px;
+  height: auto;
+  padding: 20px 0 30px;
+}
+.section2-div1 p {
+  max-width: 550px;
+}
+
+.section2-div2-img {
+  max-width: 100px;
+  height: auto;
+  padding: 20px 0 30px;
+}
+.section2-div2 {
+  max-width: 180px;
+}
+.section2-div2-title {
+  padding: 0 10px 10px;
+  border-bottom: 1px solid #000;
+}
+input,
+textarea {
+  margin: 15px 0 2px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 6px 8px;
+  width: 180px;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: #fff;
+  background-color: rgb(84, 83, 92);
+}
+.button-form {
+  background-color: rgb(84, 83, 92);
+  color: white;
+  padding: 15px;
+  width: 150px;
+  border-radius: 20px;
+  margin-top: 10px;
+}

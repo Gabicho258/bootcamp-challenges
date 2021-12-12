@@ -1,0 +1,69 @@
+* {
+  font-family: "Popins", sans-serif;
+}
+.team__title {
+  font-family: "PT Serif", serif;
+}
+.team {
+  padding: 4rem 10rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.team__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.team__crew {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.team__information {
+  font-weight: 400;
+  max-width: 300px;
+}
+.member {
+  width: 13rem;
+  margin: 25px;
+}
+.member__profile {
+  display: flex;
+  justify-content: start;
+}
+.member__role {
+  writing-mode: vertical-lr;
+}
+.member__photo {
+  height: auto;
+  width: 13rem;
+}
+.member__name {
+  font-weight: 600;
+}
+.member--two,
+.member--five {
+  align-self: flex-end;
+  margin: 100px 0 !important;
+}
+
+@media (max-width: 1061px) {
+  .member--two,
+  .member--five {
+    margin: 25px !important;
+  }
+  .member--two,
+  .member--four,
+  .member--six {
+    margin: 100px 0 !important;
+  }
+}
+@media (max-width: 810px) {
+  .member--two,
+  .member--four,
+  .member--six {
+    margin: 25px !important;
+  }
+}
